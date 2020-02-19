@@ -1,6 +1,6 @@
 # HTML TIDY EXAMPLE
 
-This program based on [this example](curl.haxx.se/libcurl/c/htmltidy.html).
+This program based on [this example](https://curl.haxx.se/libcurl/c/htmltidy.html).
 You can use this program like below.
 
 ```bash
@@ -23,7 +23,8 @@ Then this program shows like below.
 * Rebuilt URL to: https://google.com/
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.217.161.142...
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 172.217.161.142...
 * TCP_NODELAY set
 * Connected to google.com (172.217.161.142) port 443 (#0)
 * ALPN, offering http/1.1
@@ -55,7 +56,8 @@ Accept: */*
 < X-Frame-Options: SAMEORIGIN
 < Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
 < 
-100   220  100   220    0     0   1235      0 --:--:-- --:--:-- --:--:--  1235
+
+100   220  100   220    0     0   1235      0 --:--:-- --:--:-- --:--:--  1235
 * Connection #0 to host google.com left intact
 P
 (null)
